@@ -1,5 +1,48 @@
 @media screen and (max-width: 767px) {
   //
+  .our-team__logos {
+    margin-bottom: 6.6667vw;
+  }
+  .our-team-vid .video {
+    height: 58vw;
+  }
+  .our-team__logos .container {
+    gap: 2.6667vw;
+  }
+  .logos-team {
+    width: calc(50% - 1.3333vw);
+    padding: 2.6667vw 5.3333vw;
+    height: 22vw;
+  }
+  .command-hero {
+    .service-hero__cont {
+      padding-bottom: 0;
+    }
+  }
+  .mini-team-block .img {
+    height: 35vw;
+  }
+  .mini-team-block {
+    .txt {
+      width: 100%;
+      margin-bottom: 9.3333vw;
+      padding-left: 5.3333vw;
+      padding-top: 5.3333vw;
+      padding-right: 5.3333vw;
+      .title {
+        font-size: 4.5333vw;
+        line-height: 1.2;
+        padding-right: 2.6667vw;
+      }
+      p {
+        padding-left:2.6667vw;
+
+        font-size: 3.4667vw;
+        line-height: 1.2;
+      }
+    }
+  }
+  //
   .block-404 {
     padding: 8.0000vw 0;
     .txt {
@@ -791,8 +834,8 @@
           line-height: 1.2;
         }
 
-        &:not(:first-child) {
-          &::before {
+        &:not(:last-child) {
+          &::after {
             margin-left: 3.2000vw;
             font-size: 3.4667vw;
             line-height: 1.2;
